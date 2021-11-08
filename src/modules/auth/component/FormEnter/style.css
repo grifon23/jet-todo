@@ -1,0 +1,9 @@
+.form-enter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.form-enter .form-addCard__input {
+  height: 35px;
+}

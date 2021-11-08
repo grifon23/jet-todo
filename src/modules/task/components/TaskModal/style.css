@@ -1,0 +1,42 @@
+.modal {
+  background: rgba(0, 0, 0, 0.5);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.modal.active {
+  opacity: 1;
+  pointer-events: all;
+}
+.modal__container {
+  padding-bottom: 30px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: white;
+}
+.modal_button {
+  height: 35px;
+  border-radius: 10px;
+  background-color: rgba(76, 76, 243, 0.534);
+  font-size: 25px;
+  color: rgb(41, 32, 38);
+  cursor: pointer;
+}
+.modal_button:not(:first-child) {
+  margin-left: 10px;
+}
+.hideModal {
+  display: none;
+}

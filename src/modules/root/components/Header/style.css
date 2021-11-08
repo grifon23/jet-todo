@@ -1,0 +1,10 @@
+.main-title {
+  height: 50px;
+  margin: 0 0 10px 0;
+  text-align: center;
+  font-size: 30px;
+  color: rgba(19, 19, 26, 0.726);
+  background-color: rgba(95, 158, 160, 0.575);
+  border-radius: 10px;
+  padding: 20px 20px;
+}

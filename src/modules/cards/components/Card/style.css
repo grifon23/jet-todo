@@ -1,0 +1,35 @@
+.card {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  padding: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: rgba(200, 159, 255, 0.473);
+  border-radius: 10px;
+  min-width: 300px;
+  min-height: 100px;
+}
+
+.card .btn-add {
+  background-color: rgba(254, 254, 255, 0.671);
+}
+.iconArrow:hover {
+  background-color: rgba(187, 187, 255, 0.623);
+  border-radius: 20px;
+  cursor: pointer;
+}
+.del {
+  position: absolute;
+  right: 10px;
+  top: 8px;
+  border-radius: 100%;
+  border-style: none;
+  text-align: center;
+  border: 1px solid rgb(179, 126, 126);
+  background-color: rgba(241, 119, 119, 0.678);
+  cursor: pointer;
+}
+.del:hover {
+  background-color: rgba(255, 40, 40, 0.822);
+}

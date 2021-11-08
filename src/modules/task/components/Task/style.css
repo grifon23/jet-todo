@@ -1,0 +1,30 @@
+.task {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(201, 159, 255, 0.877);
+  margin: 5px;
+  border-radius: 10px;
+}
+.task:hover {
+  background-color: rgba(185, 144, 241, 0.986);
+}
+.task:hover .del {
+  width: 30px;
+  height: 30px;
+  opacity: 1;
+}
+.task .del {
+  opacity: 0;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+.task h4 {
+  cursor: pointer;
+}
+.task-item {
+  margin: 0;
+  padding: 20px 55% 20px 20px;
+}
